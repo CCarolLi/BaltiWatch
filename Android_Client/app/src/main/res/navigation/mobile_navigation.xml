@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_report">
+
+    <fragment
+        android:id="@+id/nav_report"
+        android:name="com.appcentricity.baltiwatch.ui.login.ui.home.HomeFragment"
+        android:label="@string/menu_report"
+        tools:layout="@layout/fragment_report" />
+
+    <fragment
+        android:id="@+id/nav_neighborhood"
+        android:name="com.appcentricity.baltiwatch.ui.login.ui.gallery.GalleryFragment"
+        android:label="@string/menu_neighborhood"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_verify"
+        android:name="com.appcentricity.baltiwatch.ui.login.ui.verification.VerificationFragment"
+        android:label="@string/menu_verify"
+        tools:layout="@layout/fragment_verification" />
+
+    <fragment
+        android:id="@+id/nav_rewards"
+        android:name="com.appcentricity.baltiwatch.ui.login.ui.rewards.RewardsFragment"
+        android:label="@string/menu_rewards"
+        tools:layout="@layout/fragment_rewards" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.appcentricity.baltiwatch.ui.login.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.appcentricity.baltiwatch.ui.login.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+</navigation>

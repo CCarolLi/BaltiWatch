@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/ic_doc_document"
+            android:title="@string/menu_report" />
+        <item
+            android:id="@+id/nav_neighborhood"
+            android:icon="@drawable/home4x"
+            android:title="@string/menu_neighborhood" />
+        <item
+            android:id="@+id/nav_verify"
+            android:icon="@drawable/check4x"
+            android:title="@string/menu_verify" />
+        <item
+            android:id="@+id/nav_rewards"
+            android:icon="@drawable/badge4x"
+            android:title="@string/menu_rewards" />
+    </group>
+
+</menu>
